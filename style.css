@@ -1,0 +1,235 @@
+@import url("https://fonts.google.com/specimen/Bai+Jamjuree");
+
+/*RESET INICIO*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*RESET FIM*/
+
+
+/*HEADER INICIO*/
+header{
+  background-image: url('/img/bg-header-desktop.png');
+  display: flex;
+  flex-direction: column;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ p{
+  margin-top: 20px;
+  color: rgb(163, 163, 162);
+  font-size: 20px;
+}
+
+header h1{
+  font-size: 40px;
+  margin-top: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  color: rgb(53, 52, 52);
+}
+
+
+
+
+.logo-principal{
+  margin-top: 10px;
+}
+
+button{
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  color: white;
+}
+
+.ios{
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac{
+  background-color: hsl(233, 100%, 69%);
+}
+
+.ios:hover{
+  background-color: hsl(171, 45%, 61%);
+  color: black;
+}
+
+.mac:hover{
+  background-color: hsl(233, 67%, 74%);
+  color: black;
+}
+
+/*HEADER FIM*/
+
+
+
+/*MAIN INICIO*/
+
+main{
+  display: flex;
+  flex-direction: column;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2{
+  margin-top: 130px;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  color: rgb(53, 52, 52);
+  
+}
+
+.comp {
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+    
+}
+
+.tell{
+  margin-top: 100px;
+}
+
+.tell2{
+  margin-top: 20px;
+}
+
+#serviços{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding: 30px;
+  
+  }
+
+  #serviços div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 180px;
+  }
+
+
+  #icons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 30px;
+    
+    }
+
+  #icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 150px;
+    
+    }
+
+    .Clipboard{
+      display: flex;
+  flex-direction: column;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 90px;
+    }
+
+  .botao2{
+    margin-top: 30px;
+  }
+
+  
+  footer{
+    background-color: hsl(0, 9%, 94%);
+    clear: both;
+    padding: 20px 0;
+    margin-top: 90px;
+  }
+  
+   
+  .social a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  
+  .social a[href*="twitter.com"]	{
+    background-image:	url(/img/icon-twitter.svg);
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: 9999px;
+  }
+  .social a[href*="plus.google.com"]	{
+    background-image:	url(/img/icon-instagram.svg);
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: 9999px;
+  }
+  
+  footer .container{
+    position: relative;
+  }
+  
+  .social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+  }
+  
+  .social li{
+    float: left;
+      margin-left: 25px;
+      list-style: none;
+      padding: 5px;
+      margin-right: 35px;
+      
+  }
+
+  .social li :hover{
+    color: hsl(233, 67%, 74%);;
+  }
+
+  .img{
+    height: 32px;
+  width: 32px;
+  margin-left: 20px;
+  margin-right: 12px;
+  
+  }
+  
+  .social a img{
+    padding: 2px;
+    float: left;
+    margin-right: 25px;
+  }
+  /*Rodapé Fim*/
+  
